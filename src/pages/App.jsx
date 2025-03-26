@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import InteractiveDots from '../components/dots';
 import Navbar from '../components/navbar';
 import Frameworks from '../components/frameworks'; 
 import Footer from '../components/footer';
 import Blog from './blog';
 import BlogPost from './blogpost';
-import Projects from './projects';  // Add this import
+import Projects from './projects';
 import '../index.css';
 import { useState } from 'react';
 
@@ -13,7 +13,7 @@ function App() {
   const [isWaving, setIsWaving] = useState(false);
   
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={
           <>
@@ -51,7 +51,7 @@ function App() {
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 

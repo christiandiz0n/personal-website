@@ -2,6 +2,10 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import InteractiveDots from '../components/dots';
 import Footer from '../components/footer';
+import nyteImage from '../assets/nyte.png'
+import riskreadyImage from 'src/assets/riskready.png'
+import aortaImage from 'src/assets/aorta.png'
+import tmImage from 'src/assets/task manager.png'
 
 function Projects() {
   const projectsData = [
@@ -11,7 +15,7 @@ function Projects() {
         description: "WIP",
         technologies: ["React.js", "Next.js", "Flask", "Python"],
         link: null,
-        image: "src/assets/nyte.png"
+        image: nyteImage
     },
     {
       name: "Task Manager",
@@ -19,7 +23,7 @@ function Projects() {
       description: "A sleek task manager used for optimizing user's days, incorperating database integration for user authentication and easy data management",
       technologies: ["Typescript", "React.js", "PostegreSQL", "TailwindCSS"],
       link: null,
-      image: "src/assets/task manager.png"
+      image: tmImage
     },
     {
       name: "Aorta Aid",
@@ -27,7 +31,7 @@ function Projects() {
       description: "An AI-powered application aiding medical caregivers in diagnosing cardiovascular issues, analzying patient data, anf determining the risks of patients using a machine-learning algorithm",
       technologies: ["Python", "Typescript", "Machine Learning", "Next.js", "React.js"],
       link: null,
-      image: "src/assets/aorta.png"
+      image: aortaImage
     },
     {
       name: "RiskReady",
@@ -35,7 +39,7 @@ function Projects() {
       description: "An AI-driven application used to predict opioid/substance abuse risks, analyzing user data, and providing personalized resources based on risks and level of severity",
       technologies: ["Python", "Pytorch", "Machine Learning", "React.js", "Next.js"],
       link: null,
-      image: "src/assets/riskready.png"
+      image: riskreadyImage
     }
   ];
 
