@@ -3,8 +3,6 @@ import { useLocation, Link } from 'react-router-dom';
 
 const Footer = () => {
   const location = useLocation();
-  
-  // Check if the current path is the most recent blog post or the blog page
   const shouldHideRecentPosts = 
     location.pathname === '/blog/hello-world' || 
     location.pathname === '/blog';

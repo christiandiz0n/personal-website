@@ -7,7 +7,6 @@ body {
   padding: 0;
   background-color: white;
   position: relative;
-  /* Remove overflow: hidden to allow scrolling */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -117,13 +116,12 @@ body {
 
 .main-content {
   margin-top: 1.5em;
-  padding: 2rem 33% 0 33%; /* Removed bottom padding */
+  padding: 2rem 33% 0 33%;
   flex: 1;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
-/* Waving hand animation */
 @keyframes wave {
   0% { transform: rotate(0deg); }
   10% { transform: rotate(14deg); }
@@ -140,7 +138,6 @@ body {
   transform-origin: 70% 70%;
 }
 
-/* Framework grid styles */
 .frameworks-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -193,7 +190,7 @@ body {
 
 /* Content styling */
 .profile-section {
-  margin-bottom: 0rem; /* Reduced spacing */
+  margin-bottom: 0rem;
 }
 
 .main-header {
@@ -205,14 +202,13 @@ body {
 
 .main-desc {
   color: var(--text-color);
-  margin-bottom: 0.5rem; /* Reduced spacing */
+  margin-bottom: 0.5rem;
 }
 
 .frameworks-section {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-/* Media queries */
 @media (max-width: 1200px) {
   .header, .main-content, .footer {
     padding: 2rem 20%;
@@ -236,15 +232,14 @@ body {
   }
 }
 
-/* Footer styles - completely revamped to match screenshot */
 .footer {
   padding: 2rem 33%;
   background-color: white;
-  margin-top: 0; /* Removed margin completely */
+  margin-top: 0;
   width: 100%;
   box-sizing: border-box;
 }
-/* Recent posts section */
+
 .recent-posts-header {
   display: inline-block;
   background-color: #f5f5f5;
@@ -254,7 +249,7 @@ body {
   font-weight: 400;
   color: #6b7280;
   margin-bottom: 1.5rem;
-  margin-top: 0rem; /* Added small top margin */
+  margin-top: 0rem;
 }
 
 .post-item {
@@ -286,7 +281,7 @@ body {
 .more-posts-link {
   display: block;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem; /* Reduced from 3rem */
+  margin-bottom: 1.5rem;
   font-size: 1.2rem;
   font-weight: 550;
   color: var(--text-color);
@@ -297,7 +292,6 @@ body {
   text-decoration: underline;
 }
 
-/* Footer bottom section */
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -309,8 +303,6 @@ body {
   display: flex;
   gap: 1.5rem;
 }
-
-
 
 .social-links a {
   display: flex;
@@ -336,7 +328,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* Media queries */
 @media (max-width: 1200px) {
   .footer {
     padding: 0 20%;
@@ -385,7 +376,6 @@ body {
   font-size: 0.8rem;
 }
 
-/* Blog post content styling */
 .blog-post-container {
   width: 100%;
   max-width: 800px;

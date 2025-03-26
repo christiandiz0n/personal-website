@@ -8,8 +8,6 @@ import { marked } from 'marked';
 function BlogPost() {
   const { slug } = useParams();
   
-  // This would typically come from an API or CMS
-  // For demo purposes, we'll use a static object
   const blogPosts = {
     "hello-world": {
       title: "Hello, World!",
