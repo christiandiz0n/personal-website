@@ -3,9 +3,9 @@ import Navbar from '../components/navbar';
 import InteractiveDots from '../components/dots';
 import Footer from '../components/footer';
 import nyteImage from '../assets/nyte.png'
-import riskreadyImage from 'src/assets/riskready.png'
-import aortaImage from 'src/assets/aorta.png'
-import tmImage from 'src/assets/task manager.png'
+import riskreadyImage from '../assets/riskready.png'
+import aortaImage from '../assets/aorta.png'
+import tmImage from '../assets/task manager.png'
 
 function Projects() {
   const projectsData = [
@@ -52,7 +52,7 @@ function Projects() {
       <br></br>
       <div className="projects-container">
       <div className="projects-header">
-            <h1 className="main-header">Projects</h1>
+        <br></br>
             <p className="main-desc">A timeline of my notable personal projects</p>
           </div>
         <div className="timeline-container">
