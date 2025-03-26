@@ -9,7 +9,7 @@ function Blog() {
     {
       id: 1,
       title: "Hello, World!",
-      date: "March 18, 2025",
+      date: "March 25, 2025",
       slug: "hello-world"
     },
   ];
