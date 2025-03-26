@@ -2,10 +2,10 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import InteractiveDots from '../components/dots';
 import Footer from '../components/footer';
-import nyteImage from '../assets/nyte.png'
-import riskreadyImage from '../assets/riskready.png'
-import aortaImage from '../assets/aorta.png'
-import tmImage from '../assets/task manager.png'
+import nyteImage from '../assets/nyte.png';
+import riskreadyImage from '../assets/riskready.png';
+import aortaImage from '../assets/aorta.png';
+import tmImage from '../assets/task manager.png';
 
 function Projects() {
   const projectsData = [
