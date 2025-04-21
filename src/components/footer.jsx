@@ -14,8 +14,8 @@ const Footer = () => {
           <div className="recent-posts-header">Most recent post</div>
           
           <div className="post-item">
-            <Link to="/blog/hello-world" className="post-title">Hello, World!</Link>
-            <div className="post-date">March 25, 2025</div>
+            <Link to="/blog/my-first-hackathon-win" className="post-title">My first Hackathon win!</Link>
+            <div className="post-date">April 21, 2025</div>
           </div>
           
           <Link to="/blog" className="more-posts-link">More posts →</Link>
@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
         </div>
         
-        <div className="last-updated">Last updated: March 25, 2025</div>
+        <div className="last-updated">Last updated: April 21, 2025</div>
       </div>
     </footer>
   );

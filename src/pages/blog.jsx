@@ -12,8 +12,13 @@ function Blog() {
       date: "March 25, 2025",
       slug: "hello-world"
     },
+    {
+      id: 2,
+      title: "My First Hackathon Win",
+      date: "April 19, 2025",
+      slug: "my-first-hackathon-win"
+    }
   ];
-
   return (
     <>
       <div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Navbar from '../components/navbar';
 import InteractiveDots from '../components/dots';
-import Footer from '../components/footer';
+import FooternoBlog from '../components/footernoblog';
 import { marked } from 'marked';
 
 function BlogPost() {
@@ -20,8 +20,32 @@ My goal is for this website is to illustrate personality and document my progres
 As of right now, I specialize in creating seamless and memorable user experiences through my work. Furthermore, I want to take steps in leveraging AI to better society. Check out my projects to learn a bit more.
 
 `
+    },
+    "my-first-hackathon-win": {
+      title: "My first Hackathon win!",
+      date: "April 19, 2025",
+      content: `
+When I first started my journey within software development, I quite honestly did not know if it was for me. I was unsure if I would fit into the field of tech, and I definitely did not know if this was my passion, something that I would be pursing for the rest of my life.
+
+But as days went on, I grew more and more comfortable with the problem-solving aspect of development, and most importantly, the creative aspect.
+
+I found that I loved taking an idea and bringing it to life through code, and whether it was addressing a small problem or building a full-scale application, I learned to love the process.
+
+I was able to showcase my skills and work with a team of talented engineers to build Algora, the only job-application tool that you will ever need.
+
+Algora is a web application designed to simplify and automate the job application process through intelligent matching and seamless data integration. It leverages a frontend built with React and Next.js, automation tools like Selenium and Puppeteer for scraping user data, and databases such as Postgres and NoSQL, secured by Auth0 authentication. Algora creates personalized job recommendations and tailored applications by extracting and analyzing data from GitHub, Devpost, LinkedIn, and local code directories, effectively transforming tedious job hunting into a streamlined, empowering experience.
+
+Some key development challenges included overcoming dynamic content scraping issues, ensuring robust security for user credentials, handling inconsistent local data formats, and scaling automation to bypass rate limits and IP restrictions.
+
+Ultimately, Algora enables job seekers to effortlessly apply at scale, confidently presenting their strongest skills and projects.
+
+Thank you to the HOF Captial and Tech @ NYU teams for the opportunity.
+
+I cannot wait to see what the future holds for Algora, and I cannot wait to continue to grow as an engineer, problem solver, and creator.
+`
     }
-};
+  }
+// ... existing code ...
   
   const post = blogPosts[slug];
   
@@ -74,7 +98,7 @@ As of right now, I specialize in creating seamless and memorable user experience
           />
         </div>
       </main>
-      <Footer />
+      <FooternoBlog />
     </>
   );
 }

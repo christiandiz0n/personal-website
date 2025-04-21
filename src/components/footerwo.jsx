@@ -19,7 +19,7 @@ const Footerwo = () => {
           </a>
         </div>
         
-        <div className="last-updated">Last updated: March 18, 2025</div>
+        <div className="last-updated">Last updated: April 21, 2025</div>
       </div>
     </footer>
   );

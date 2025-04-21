@@ -19,10 +19,10 @@ const FooternoBlog = () => {
           </a>
         </div>
         
-        <div className="last-updated">Last updated: March 18, 2025</div>
+        <div className="last-updated">Last updated: April 21, 2025</div>
       </div>
     </footer>
   );
 };
 
-export default Footer;
+export default FooternoBlog;
