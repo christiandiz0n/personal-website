@@ -45,7 +45,6 @@ I cannot wait to see what the future holds for Algora, and I cannot wait to cont
 `
     }
   }
-// ... existing code ...
   
   const post = blogPosts[slug];
   
