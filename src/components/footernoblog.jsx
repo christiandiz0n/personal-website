@@ -19,7 +19,7 @@ const FooternoBlog = () => {
           </a>
         </div>
         
-        <div className="last-updated">Last updated: April 21, 2025</div>
+        <div className="last-updated">Last updated: September 1, 2025</div>
       </div>
     </footer>
   );
