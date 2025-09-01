@@ -36,7 +36,7 @@ function App() {
                     👋
                   </span>
                 </h1>
-                <p className="main-desc">I'm a full-stack software developer from New Jersey and a computer & cognitive science major at Rutgers University-Honors College.</p>
+                <p className="main-desc">I'm a full-stack software developer from New Jersey and a computer science & information technology & informatics major at Rutgers University-Honors College.</p>
               </div>
               
               <div className="frameworks-section">
